@@ -64,7 +64,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul9/blob/main/modul%209/output/soal%201.png)
+![Screenshot Output Unguided 1_1](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul12/blob/main/109082500124_MuhammadFaizMaulana_Modul12/Modul%2012/soal1.go)
 [Program ini membaca data suara hingga ditemukan angka 0 sebagai penanda akhir input, kemudian menghitung jumlah seluruh suara yang masuk dan memvalidasi suara yang sah, yaitu suara dengan nomor calon antara 1 sampai 20. Semua suara sah disimpan ke dalam array, lalu untuk setiap calon dari nomor 1 hingga 20 program menggunakan fungsi hitungSuara() yang melakukan sequential search untuk menghitung berapa kali nomor calon tersebut muncul dalam array. Setelah itu program menampilkan jumlah suara masuk, jumlah suara sah, serta daftar calon yang memperoleh suara beserta jumlah suara yang diperolehnya.]
 
 ### 2. [Soal]
@@ -145,7 +145,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul9/blob/main/modul%209/output/soal%202.png)
+![Screenshot Output Unguided 1_2](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul12/blob/main/109082500124_MuhammadFaizMaulana_Modul12/Modul%2012/soal2.go)
 [Program ini membaca data suara hingga ditemukan angka 0 sebagai penanda akhir input, kemudian menghitung jumlah seluruh suara yang masuk dan jumlah suara sah, yaitu suara dengan nomor calon antara 1 sampai 20. Suara yang sah disimpan ke dalam array, lalu fungsi hitungSuara() digunakan untuk menghitung jumlah suara yang diperoleh setiap calon dengan metode sequential search. Setelah seluruh suara dihitung, program menentukan ketua RT sebagai calon dengan jumlah suara terbanyak dan wakil ketua sebagai calon dengan jumlah suara terbanyak kedua. Jika terdapat beberapa calon dengan jumlah suara yang sama, calon dengan nomor yang lebih kecil akan dipilih terlebih dahulu sebagai ketua, kemudian nomor terkecil berikutnya sebagai wakil. Terakhir, program menampilkan jumlah suara masuk, jumlah suara sah, nomor ketua RT, dan nomor wakil ketua RT yang terpilih.]
 
 ### 3. [Soal]
@@ -204,6 +204,6 @@ func posisi(n, k int) int {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_2](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul9/blob/main/modul%209/output/soal%204.png)
+![Screenshot Output Unguided 1_2](https://github.com/mfaizmaulana20/109082500124_MuhammadFaizMaulana_Modul12/blob/main/109082500124_MuhammadFaizMaulana_Modul12/Modul%2012/soal3.go)
 [Program ini membaca dua buah input, yaitu n sebagai jumlah data dan k sebagai nilai yang akan dicari, kemudian mengisi array data dengan n bilangan yang sudah terurut membesar melalui prosedur isiArray(). Selanjutnya fungsi posisi() melakukan pencarian menggunakan metode Binary Search, yaitu dengan membandingkan nilai k dengan elemen tengah array dan mempersempit daerah pencarian ke kiri atau ke kanan hingga data ditemukan atau tidak ada lagi bagian array yang perlu diperiksa. Jika nilai k ditemukan, fungsi mengembalikan indeks posisinya yang dihitung mulai dari 0, sedangkan jika tidak ditemukan fungsi mengembalikan -1. Program kemudian menampilkan posisi data tersebut atau mencetak "TIDAK ADA" jika nilai k tidak terdapat dalam array.]
 
